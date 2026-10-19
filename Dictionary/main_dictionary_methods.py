@@ -72,8 +72,32 @@ sales.update({
 print(sales)
 
 
-# 2. Pop
-C:\Users\rushi\Documents\Python\.venv
+# 2. Pop > removes specific key
+   # we can give default string if key not
+   # present in given dictionary
+
+print(sales.pop("Satara", "Not found"))
+
+# 3. popitem() > removes last inserted item
+    # key value pair and return the same
+
+print(">>",sales.popitem())
+print(sales)
+
+# 4. clear() > remove everything 
+
+employee.clear()
+
+print(employee) # dictionary still exist but empty
+
+
+
+
+
+
+
+
+
 
 
 
