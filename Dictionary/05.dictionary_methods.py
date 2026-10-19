@@ -72,6 +72,11 @@ sales.update({
 print(sales)
 
 
+# 2. Pop
+C:\Users\rushi\Documents\Python\.venv
+
+
+
 
 
 
