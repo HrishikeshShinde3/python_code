@@ -22,7 +22,16 @@ print(last_removed)
 
 # print total sales of all remaining cities
 
+print(sales.values())
 
+total_sale = 0
+
+for value in sales.values():
+    total_sale += value
+print(total_sale)
+
+print("Nagpur" in sales)
+print("Nashik" in sales)
 
 
 

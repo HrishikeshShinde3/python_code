@@ -91,6 +91,28 @@ employee.clear()
 print(employee) # dictionary still exist but empty
 
 
+# checking the keys and values in the dictionary
+
+# it checks the keys 
+print("Nagpur" in sales)
+print("Nashik" in sales)
+print()
+
+# it checks the values 
+
+print(59000 in sales.values())
+print(60000 in sales.values())
+print()
+# not in operator
+
+if "Kalya" not in sales:
+    print("Kalyan is missing")
+
+
+
+
+
+
 
 
 
