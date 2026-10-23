@@ -3,8 +3,8 @@
 
 #write a function to add two numbers
 
-a = int(input("Enter the first number: "))
-b = int(input("Enter the second number: "))
+a = 3
+b = 4
 
 def add_numbers(num1,num2): # def is to define a function
     print(num1+num2)
@@ -38,7 +38,37 @@ print("result :",result)
 
 # 1. Positional arguments
 
-    
+def person_details(name, age):
+    print(f"Hello! My name is {name} and my age is {age}")
+
+
+person_details(22, "Hrishi")
+# output is = Hello! My name is 22 and my age is Hrishi
+# py assign the values by position not by  the names
+
+# 2. Keyword arguments
+
+def my_details(name, age):
+    print(f"My name is {name}. My age is {age}")
+
+my_details(age = 26, name = "Hrishi")
+
+
+# Default arguments
+
+def employee(name, city = "pune", salary = 30000):
+    print(name)
+    print(city)
+    print(salary)
+
+employee("Hrishikesh", "mumbai", 45000)
+
+# parameters without defaults must come before parameter with defaults
+# mean argument having first priority if any argument is missing
+# then default parameters comes in the role
+
+
+
 
 
 
