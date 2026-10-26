@@ -50,7 +50,7 @@ python-practice/
 2. Clone this repository:
 
    ```bash
-   git clone <your-repository-url>
+   git clone https://github.com/HrishikeshShinde3/python_code.git
    ```
 
 3. Navigate to the project directory:
