@@ -60,6 +60,8 @@ for student_id, details in students.items():
 average = total_marks / total_students
 print("Average of class is ",average)
 
+
+
                  
 
 
