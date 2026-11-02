@@ -6,8 +6,7 @@ for data in my_data:
          print(data[0], "is pass.")
         else:
          print(data[0], "is fail.")
-        
-        
+   
         
         
 
